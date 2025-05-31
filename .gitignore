@@ -25,3 +25,6 @@ Thumbs.db
 
 # Git LFS handled files
 .gitattributes
+*.mat
+*.asv
+.DS_Store
