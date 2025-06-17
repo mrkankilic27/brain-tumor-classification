@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# virtual environments
+env/
+venv/
+ENV/
+
+# distributions
+build/
+dist/
+*.egg-info/
+
+# IDEs
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# test & log
+*.log
+.pytest_cache/
+.tox/
+saved_logs/*.csv
+
+# examples
+examples/
