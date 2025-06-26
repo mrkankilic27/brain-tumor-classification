@@ -66,60 +66,60 @@ Follow the steps below to classify an MRI image.
 
 ## Step-by-Step: GUI Usage
 
-### 1. Launch the GUI
-
-Once you run the script, the GUI window will open.
+### 1. Launch the GUI  
+**Action:** Run `brain_tumor_gui_only.m` in MATLAB  
+**Description:** Opens the main graphical user interface of the application  
 
 ![Launch GUI](photos/10.png)
 
 ---
 
-### 2. Load an MRI Image
+### 2. Load an MRI Image  
+**Action:** Click "Load Image"  
+**Description:** Choose an MRI image from your computer to classify  
 
-Click **"Load Image"** to select a brain MRI image from your device.
-
-![Select Image](photos/14.jpg)
-![Select Image](photos/15.jpg)
-![Select Image](photos/16.jpg)
-
----
-
-### 3. Choose Model & Options
-
-- **Model Type:** Choose either CustomCNN or GoogleNet
-- **Training Intensity:** Low or High, affecting performance and accuracy
-
-![Model Selection](photos/11.jpg)
-![Model Selection](photos/12.jpg)
-![Model Selection](photos/13.jpg)
+![Select Image](photos/14.png)  
+![Select Image](photos/15.png)  
+![Select Image](photos/16.png)
 
 ---
 
-### 4. Classify the Image
+### 3. Choose Model & Options  
+**Action:** Select model type and training intensity  
+**Description:** You can choose between CustomCNN or GoogleNet and set training level to low or high  
 
-Press **"Classify"** to let the trained model analyze the MRI image.
+![Model Selection](photos/11.png)  
+![Model Selection](photos/12.png)  
+![Model Selection](photos/13.png)
+
+---
+
+### 4. Classify the Image  
+**Action:** Click the "Classify" button  
+**Description:** The selected model will process the image and make a prediction  
 
 ![Classification](photos/20.png)
 
 ---
 
-### 5. View Output
+### 5. View Output  
+**Action:** Wait for the result to be displayed  
+**Description:** Classification label, confidence score, and optional confusion matrix are shown  
 
-The classification result will be shown on screen. Metrics like accuracy and confusion matrix may also be displayed.
-
-![Result](photos/17.png)
+![Result](photos/17.png)  
 ![Result](photos/8.png)
+
 
 ---
 ## Screenshots Summary
 
-| Step | Description           | Image                         |
-|------|-----------------------|-------------------------------|
-| 1    | Launch GUI            | ![1](photos/1.png)            |
-| 2    | Select Test Image     | ![2](photos/2.jpg)            |
-| 3    | Choose Model/Options  | ![3](photos/3.jpg)            |
-| 4    | Classification        | ![4](photos/5.png)            |
-| 5    | Results               | ![5](photos/14.png)           |
+| Step | Description           | Image(s)                                                        |
+|------|-----------------------|------------------------------------------------------------------|
+| 1    | Launch GUI            | ![1](photos/10.png)                                              |
+| 2    | Select Test Image     | ![2a](photos/14.png) ![2b](photos/15.png) ![2c](photos/16.png)   |
+| 3    | Choose Model/Options  | ![3a](photos/11.png) ![3b](photos/12.png) ![3c](photos/13.png)   |
+| 4    | Classification        | ![4](photos/20.png)                                              |
+| 5    | Results               | ![5a](photos/17.png) ![5b](photos/8.png)                         |
 
 ## License
 
