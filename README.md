@@ -70,7 +70,7 @@ Follow the steps below to classify an MRI image.
 
 Once you run the script, the GUI window will open.
 
-![Launch GUI](photos/1.png)
+![Launch GUI](photos/10.png)
 
 ---
 
@@ -78,7 +78,9 @@ Once you run the script, the GUI window will open.
 
 Click **"Load Image"** to select a brain MRI image from your device.
 
-![Select Image](photos/2.jpg)
+![Select Image](photos/14.jpg)
+![Select Image](photos/15.jpg)
+![Select Image](photos/16.jpg)
 
 ---
 
@@ -87,7 +89,9 @@ Click **"Load Image"** to select a brain MRI image from your device.
 - **Model Type:** Choose either CustomCNN or GoogleNet
 - **Training Intensity:** Low or High, affecting performance and accuracy
 
-![Model Selection](photos/3.jpg)
+![Model Selection](photos/11.jpg)
+![Model Selection](photos/12.jpg)
+![Model Selection](photos/13.jpg)
 
 ---
 
@@ -95,7 +99,7 @@ Click **"Load Image"** to select a brain MRI image from your device.
 
 Press **"Classify"** to let the trained model analyze the MRI image.
 
-![Classification](photos/5.png)
+![Classification](photos/20.png)
 
 ---
 
@@ -103,7 +107,8 @@ Press **"Classify"** to let the trained model analyze the MRI image.
 
 The classification result will be shown on screen. Metrics like accuracy and confusion matrix may also be displayed.
 
-![Result](photos/7.png)
+![Result](photos/17.png)
+![Result](photos/8.png)
 
 ---
 ## Screenshots Summary
