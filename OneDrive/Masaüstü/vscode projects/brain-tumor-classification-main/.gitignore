@@ -1,0 +1,30 @@
+# MATLAB temporary and backup files
+*.asv
+*.m~
+*.mlx~
+*.fig
+*.p
+*.slxc
+*.autosave
+
+# Compiled MATLAB files
+*.mex*
+*.mlappinstall
+*.mlpkginstall
+
+# Project-specific
+*.mat
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VSCode config
+.vscode/
+
+# Git LFS handled files
+.gitattributes
+*.mat
+*.asv
+.DS_Store
