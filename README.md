@@ -1,4 +1,3 @@
-
 # Brain Tumor Classification using MATLAB
 
 This MATLAB project performs classification of brain tumors from MRI images using deep learning models. It provides both training and testing capabilities, along with a graphical user interface (GUI) for post-training interaction.
@@ -107,7 +106,6 @@ The classification result will be shown on screen. Metrics like accuracy and con
 ![Result](photos/7.png)
 
 ---
-
 ## Screenshots Summary
 
 | Step | Description           | Image                         |
@@ -116,7 +114,7 @@ The classification result will be shown on screen. Metrics like accuracy and con
 | 2    | Select Test Image     | ![2](photos/2.jpg)            |
 | 3    | Choose Model/Options  | ![3](photos/3.jpg)            |
 | 4    | Classification        | ![4](photos/5.png)            |
-| 5    | Results               | ![5](photos/7.png)            |
+| 5    | Results               | ![5](photos/14.png)           |
 
 ## License
 
